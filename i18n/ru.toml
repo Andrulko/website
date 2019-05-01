@@ -1,64 +1,64 @@
-# See https://github.com/nicksnyder/go-i18n for format documentation and some tools.
+# See https://github.com/nicksnyder/go-i18n for format documentation and some tools.=
 
 [home_hero_title]
-other = "Let&rsquo;s Encrypt - это <span>бесплатный</span>, <span>автоматизированный</span>, и <span>открытый</span> Центр Сертификации."
+other="Let&rsquo;s Encrypt is a <span>free</span>, <span>automated</span>, and <span>open</span> Certificate Authority."
 
 [home_hero_getting_started]
-other = "Приступить"
+other="Get Started"
 
 [home_hero_donate]
-other = "Поддержать нас"
+other="Donate"
 
 [home_hero_sponsor]
-other = "Поддержать"
+other="Sponsor"
 
 [home_major_sponsors]
-other = "Основные спонсоры и дарители"
+other="Major Sponsors and Donors"
 
 [home_from_our_blog]
-other = "В нашем блоге (на английском)"
+other="From our blog"
 
 [read_more]
-other = "Ещё..."
+other="Read more"
 
 [subscribe_rss]
-other = "Подписаться <a href=\"{{ .Permalink }}\">на RSS</a>"
+other="Subscribe <a href=\"{{ .Permalink }}\">via RSS</a>"
 
 [footer_support_us]
-other = "Помогите сделать Интернет безопасным, и уважающим вашу конфиденциальность."
+other="Support a more secure and privacy-respecting Web."
 
 [footer_donate]
-other = "Поддержите нас"
+other="Donate"
 
 [footer_policies]
-other = """
-Ознакомьтесь с нашей <a href="/privacy/">политикой конфиденциальности</a>.<br>
-Ознакомьтесь с нашей <a href="/trademarks/">политикой в отношении товарных знаков</a>.
-"""
+other="\""
+View our <a href="/privacy/\">privacy policy</a>.<br>
+View our <a href="
+"""=
 
 [linux_foundation_trademark]
-other = "Linux Foundation является зарегистрированным товарным знаком The Linux Foundation. Linux является зарегистрированным товарным знаком, принадлежащим Линусу Торвальдсу."
+other="Linux Foundation is a registered trademark of The Linux Foundation. Linux is a registered trademark of Linus Torvalds."
 
 [header_skip_nav]
-other = "Пропустить навигационные ссылки"
+other="Skip navigation links"
 
 [last_updated]
-other = "Последнее обновление:"
+other="Last updated:"
 
 [see_all_doc]
-other = "Вся документация"
+other="See all Documentation"
 
 [blog_feed]
-other = "Блог Let's Encrypt"
+other="Let's Encrypt Blog Feed"
 
 [platinum]
-other = "Платиновые"
+other="Platinum"
 
 [gold]
-other = "Золотые"
+other="Gold"
 
 [silver]
-other = "Серебряные"
+other="Silver"
 
 [languages]
-other = "Язык"
+other="Languages"
