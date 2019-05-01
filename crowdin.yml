@@ -1,5 +1,7 @@
 files:
   - source: /content/en/**/*.*
     translation: /content/%two_letters_code%/**/%original_file_name%
+    content_segmentation: 0
   - source: /i18n/en.toml
     translation: /i18n/%two_letters_code%.toml
+    type: ini
