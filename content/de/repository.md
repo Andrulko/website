@@ -10,11 +10,11 @@ menu:
 
 # Let's Encrypt Subscriber Agreement
 
-* Derzeit gültig
+* Derzeit gültig 
   * [v1.2, November 15, 2017](/documents/LE-SA-v1.2-November-15-2017.pdf)
   * [U.S. Government Amendment, September 22, 2015](/documents/LE-USG-SA-Amendment-Sept-22-2015.pdf)
   * [U.S. State and Local Government Amendment, December 28, 2016](/documents/LE-US-State-Local-SA-Amendment-Dec-28-2016.pdf)
-* Historisch / Informal
+* Historisch / Informal 
   * [Differences from v1.1.1 to v1.2](/documents/LE-SA-v1.1.1-v1.2-diff.docx)
   * [v1.1.1, August 1, 2016](/documents/LE-SA-v1.1.1-August-1-2016.pdf)
   * [Differences from v1.0.1 to v1.1.1](/documents/LE-SA-v1.0.1-v1.1.1-diff.docx)
@@ -47,25 +47,26 @@ menu:
 
 # Let's Encrypt Privacy Policy
 
-* [August 15, 2016](/de/privacy/)
+* [August 15, 2016](/privacy/)
 
 # Let's Encrypt Trademark Policy
 
-* [Current Trademark Policy](/de/trademarks/)
+* [Current Trademark Policy](/trademarks/)
 
 # ISRG Legal Transparency Reports
 
-* [October 1, 2018](/documents/ISRG-Legal-Transparency-Report-October-1-2018.pdf)
-* [April 1, 2018](/documents/ISRG-Legal-Transparency-Report-April-1-2018.pdf)
-* [October 1, 2017](/documents/ISRG-Legal-Transparency-Report-October-1-2017.pdf)
-* [April 1, 2017](/documents/ISRG-Legal-Transparency-Report-April-1-2017.pdf)
-* [October 1, 2016](/documents/ISRG-Legal-Transparency-Report-October-1-2016.pdf)
-* [April 1, 2016](/documents/ISRG-Legal-Transparency-Report-April-1-2016.pdf)
+* [October 1, 2018](/documents/ISRG-Legal-Transparency-Report-April-1-2019.pdf)
+* [April 1, 2018](/documents/ISRG-Legal-Transparency-Report-October-1-2018.pdf)
+* [October 1, 2017](/documents/ISRG-Legal-Transparency-Report-April-1-2018.pdf)
+* [April 1, 2017](/documents/ISRG-Legal-Transparency-Report-October-1-2017.pdf)
+* [October 1, 2016](/documents/ISRG-Legal-Transparency-Report-April-1-2017.pdf)
+* [April 1, 2016](/documents/ISRG-Legal-Transparency-Report-October-1-2016.pdf)
+* [July 1, 2015](/documents/ISRG-Legal-Transparency-Report-April-1-2016.pdf)
 * [July 1, 2015](/documents/ISRG-Legal-Transparency-Report-July-1-2015.pdf)
 
 # ISRG Non-Discrimination Policy
 
-* [June 18, 2015](/de/nondiscrimination/)
+* [June 18, 2015](/nondiscrimination/)
 
 # WebTrust Audits
 
@@ -87,4 +88,4 @@ menu:
 
 # Certificate Problem Reports
 
-Wenn Sie die Komprimitierung eines privaten Schlüssels, einen Missbrauch von Zertifikaten oder andere Arten von Betrug, Missbrauch, unangemessenes Verhalten oder andere Angelegenheiten im Zusammenhang mit Zertifikaten melden möchten, senden Sie uns bitte eine E-Mail <a href="mailto:cert-prob-reports@letsencrypt.org">cert-prob-reports@letsencrypt.org</a>.
+Wenn Sie die Komprimitierung eines privaten Schlüssels, einen Missbrauch von Zertifikaten oder andere Arten von Betrug, Missbrauch, unangemessenes Verhalten oder andere Angelegenheiten im Zusammenhang mit Zertifikaten melden möchten, senden Sie uns bitte eine E-Mail <cert-prob-reports@letsencrypt.org>.
