@@ -10,7 +10,6 @@ Um zu verstehen, wie die Technologie funktioniert, gehen wir die Einrichtung von
 
 Dieser Prozess umfasst zwei Schritte. Zunächst weist der Agent der Zertifizierungsstelle nach, dass der Webserver eine Domain kontrolliert. Anschliessend kann der Agent Zertifikate für diese Domain anfordern, erneuern und widerrufen.
 
-
 ## Domain-Validierung
 
 Let's Encrypt identifiziert den Serveradministrator anhand des öffentlichen Schlüssels. Wenn die Agentensoftware zum ersten Mal mit Let's Encrypt interagiert, generiert sie ein neues Schlüsselpaar und weist der Let's Encrypt-Zertifizierungsstelle nach, dass der Server eine oder mehrere Domain kontrolliert. Dies ist vergleichbar mit dem traditionellen CA-Verfahren, bei dem ein Konto erstellt und diesem Konto Domains hinzugefügt werden.
@@ -21,7 +20,6 @@ Um den Prozess zu starten, fragt der Agent die Let's Encrypt-Zertifizierungsstel
 * Bereitstellung einer HTTP-Ressource unter einem bekannten URI unter "https://example.com/"
 
 Neben den Herausforderungen bietet die Let's Encrypt-Zertifizierungsstelle auch eine Nonce, die der Agent mit seinem privaten Schlüsselpaar signieren muss, um zu beweisen, dass er das Schlüsselpaar kontrolliert.
-
 
 <div class="howitworks-figure">
 <img alt="Aufforderung zur Validierung von example.com stellen"
