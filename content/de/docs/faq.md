@@ -69,37 +69,40 @@ Email-Verschlüsselung und Code-Signierung sind unterschiedliche Typen von Zerti
 
 ## Generiert oder speichert Let’s Encrypt private Schlüssel von meinen Zertifikaten auf Let’s Encrypt’s Servern?
 
-Nein. Niemals.
-Der private Schlüssel wird immer auf Ihrem eigenen Server generiert und verwaltet, nicht bei der Let's Encrypt Zertifikat Verwaltung.
-
-## Was ist die Laufzeit der Let's Encrypt Zertifikate? Für wie lange sind diese gültig?
+Nein. Niemals. Der private Schlüssel wird immer auf Ihrem eigenen Server generiert und verwaltet, nicht bei der Let's Encrypt Zertifikat Verwaltung.
 
 Unsere Zertifikate sind 90 Tage gültig. Sie können [hier](/2015/11/09/why-90-days.html) lesen, warum das so ist.Da ist kein Weg das zu ändern, es gibt keine Ausnahme. Wir empfehlen die automatische Erneuerung Ihrer Zertifikate alle 60 Tage.
 
-## Wird Let’s Encrypt Organisations-Validierung (OV) oder Erweiterte Validierung (EV) Zertifikate anbieten?
+## Was ist die Laufzeit der Let's Encrypt Zertifikate? Für wie lange sind diese gültig?
 
 Wir haben keine Pläne für Ausstellung von OV oder EV Zertifikaten.
 
-## Kann ich ein Zertifikat für mehrere Domain-Namen (SAN Zertifikate oder UCC Zertifikate) bekommen?
-
 Ja, dieselben Zertifikate können unterschiedliche Namen mit Benutzung des Subject Alternative Name (SAN) Mechanismus verwenden.
 
-## Kann Let’s Encrypt Wildcard-Zertifikate ausstellen?
+## Wird Let’s Encrypt Organisations-Validierung (OV) oder Erweiterte Validierung (EV) Zertifikate anbieten?
 
 Ja. Wildcard müssen über ACMEv2 mit DNS-01 Challenge ausgestellt werden. Schauen Sie [diese Nachricht](https://community.letsencrypt.org/t/acme-v2-production-environment-wildcards/55578) für mehr technische Details.
 
-## Gibt es einen Let's Encrypt (ACME) Client für mein Betriebssystem?
+## Kann ich ein Zertifikat für mehrere Domain-Namen (SAN Zertifikate oder UCC Zertifikate) bekommen?
 
 Es ist eine grosse Anzahl von [ACME Clients](/de/docs/client-options/) verfügbar. Die Wahrscheinlichkeit ist gross, dass etwas auf Ihrem Betriebssystem gut funktioniert. Wir empfehlen, mit dem [Certbot](https://certbot.eff.org/) zu starten.
 
-## Kann ich einen bestehenden privaten Schlüssel oder ein Certificate Signing Request (CSR) benutzen?
+## Kann Let’s Encrypt Wildcard-Zertifikate ausstellen?
 
 Ja, aber nicht alle Clients unterstützen diese Funktion. [Certbot](https://certbot.eff.org/) tut das.
 
-## Welche IP-Adressen benutzt Let's Encrypt zur Validierung meines Webservers?
+## Gibt es einen Let's Encrypt (ACME) Client für mein Betriebssystem?
 
 Wir veröffentlichen keine Liste von IP-Adressen, die wir bei der Validierung benutzen, weil diese ändern sich zu jeder Zeit. In der Zukunft validieren wir möglichweise von verschiedenen IP-Adressen zur selben Zeit.
 
-## Ich habe erfolgreich ein Zertifikat erneuert, aber die Validierung funktioniert jetzt nicht mehr - wie ist das möglich?
+## Kann ich einen bestehenden privaten Schlüssel oder ein Certificate Signing Request (CSR) benutzen?
 
 Wenn Sie den Austausch für eine Domain erfolgreich abgeschlossen haben, wird die resultierende Autorisierung zwischengespeichert, damit Ihr Konto später erneut verwendet werden kann. Die zwischengespeicherten Berechtigungen sind 30 Tage ab dem Zeitpunkt der Validierung gültig. Wenn das angeforderte Zertifikat alle erforderlichen Berechtigungen zwischengespeichert hat, wird die Validierung erst nach Ablauf der relevanten zwischengespeicherten Berechtigungen erneut durchgeführt.
+
+## Welche IP-Adressen benutzt Let's Encrypt zur Validierung meines Webservers?
+
+We don't publish a list of IP addresses we use to validate, because they may change at any time. In the future we may validate from multiple IP addresses at once.
+
+## Ich habe erfolgreich ein Zertifikat erneuert, aber die Validierung funktioniert jetzt nicht mehr - wie ist das möglich?
+
+Once you successfully complete the challenges for a domain, the resulting authorization is cached for your account to use again later. Cached authorizations last for 30 days from the time of validation. If the certificate you requested has all of the necessary authorizations cached then validation will not happen again until the relevant cached authorizations expire.
