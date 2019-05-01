@@ -15,11 +15,11 @@ Wir geben Menschen die digitalen Zertifikate, die sie zur Aktivierung von HTTPS 
 
 Die Schlüsselprinzipien hinter Let's Encrypt sind:
 
-* <strong>Frei:</strong> Jeder, der einen Domainnamen besitzt, kann Let's Encrypt benutzen, um sichere Zertifikate kostenfrei zu erhalten.
-* <strong>Automatisch:</strong> Software läuft auf einem Webserver und kann mit Let's Encrypt schmerzfrei Zertifikate beziehen, zur Benutzung abgesichert werden und automatisch Zertifikate erneuern.
-* <strong>Sicher:</strong> Let's Encrypt stellt eine Plattform für erweiterete TLS Sicherheit zur Verfügung, sowohl auf der CA Seite als auch beim Betreiber, um ihn bei der Absicherung seines Servers zu unterstützen.
-* <strong>Transparent:</strong> Alle ausgestellten und widerrufenen Zertifikate werden öffentlich für jedermann zur Inspektion zur Verfügung gestellt.
-* <strong>Offen:</strong> Das automatische Ausstellungd- und Erneuerungsprotokoll wird als offener Standarf veröffentlich, damit es andere adaptieren können.
-* <strong>Kooperativ:</strong> Ähnlich wie die zugrunde liegenden Internetprotokolle selbst ist Let's Encrypt eine gemeinsame Anstrengung, die der Community zugute kommt, und die ausserhalb der Kontrolle einer einzelnen Organisation liegt.
+* **Frei:** Jeder, der einen Domainnamen besitzt, kann Let's Encrypt benutzen, um sichere Zertifikate kostenfrei zu erhalten.
+* **Automatisch:** Software läuft auf einem Webserver und kann mit Let's Encrypt schmerzfrei Zertifikate beziehen, zur Benutzung abgesichert werden und automatisch Zertifikate erneuern.
+* **Sicher:** Let's Encrypt stellt eine Plattform für erweiterete TLS Sicherheit zur Verfügung, sowohl auf der CA Seite als auch beim Betreiber, um ihn bei der Absicherung seines Servers zu unterstützen.
+* **Transparent:** Alle ausgestellten und widerrufenen Zertifikate werden öffentlich für jedermann zur Inspektion zur Verfügung gestellt.
+* **Offen:** Das automatische Ausstellungd- und Erneuerungsprotokoll wird als offener Standarf veröffentlich, damit es andere adaptieren können.
+* **Kooperativ:** Ähnlich wie die zugrunde liegenden Internetprotokolle selbst ist Let's Encrypt eine gemeinsame Anstrengung, die der Community zugute kommt, und die ausserhalb der Kontrolle einer einzelnen Organisation liegt.
 
 Wir haben eine Seite mit mehr detailierte Informationen, [wie Let's Encrypt CA funktioniert](/de/how-it-works/).
