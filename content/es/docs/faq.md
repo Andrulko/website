@@ -38,7 +38,7 @@ En algunos casos, integradores (por ejemplo, proveedores de hospedaje) cobrar&aa
 
 ## &iquest;Qu&eacute; tipo de apoyo ofrecen?
 
-Let's Encrypt est&aacute; dirigido por un peque&ntilde;o equipo y se basa de la automatizaci&oacute;n para mantener los costos bajos. Siendo ese el caso, no podemos ofrecer apoyo directo a nuestros subscriptores. Sin embargo, tenemos algunas grandes opciones de apoyo: 
+Let's Encrypt est&aacute; dirigido por un peque&ntilde;o equipo y se basa de la automatizaci&oacute;n para mantener los costos bajos. Siendo ese el caso, no podemos ofrecer apoyo directo a nuestros subscriptores. Sin embargo, tenemos algunas grandes opciones de apoyo:
 
 1. Tenemos [documentaci&oacute;n](/es/docs/) realmente &uacute;til.
 2. Tenemos [foros de apoyo comunitario](https://community.letsencrypt.org/) muy activos y &uacute;tiles. Miembros de nuestra comunidad hacen un gran trabajo contestando preguntas, y muchas de las preguntas m&aacute;s frecuentes ya han sido contestadas.
@@ -105,5 +105,4 @@ No publicamos una lista de las direcciones IP que usamos para validaci&oacute;n,
 
 ## Renov&eacute; con &eacute;xito un certificado, pero esta vez no se realiz&oacute; la validaci&oacute;n. &iquest;C&oacute;mo es posible?
 
-Una vez hayas completado los retos para el dominio exitosamente, la autorizaci&oacute;n resultanda es almacenada para tu cuenta para usarla luego nuevamente. Autorizaciones almacenadas duran 30 dias desde el momento de validaci&oacute;n.
-Si el certificado que solicitaste tiene todas las autorizaciones necesarias almacenadas la validaci&oacute; no volver&aacute; a realizarse hasta que caduquen las autorizaciones correspondientes almacenadas.
+Una vez hayas completado los retos para el dominio exitosamente, la autorizaci&oacute;n resultanda es almacenada para tu cuenta para usarla luego nuevamente. Autorizaciones almacenadas duran 30 dias desde el momento de validaci&oacute;n. Si el certificado que solicitaste tiene todas las autorizaciones necesarias almacenadas la validaci&oacute; no volver&aacute; a realizarse hasta que caduquen las autorizaciones correspondientes almacenadas.
