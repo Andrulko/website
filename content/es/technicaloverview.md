@@ -37,10 +37,9 @@ Luego, es el trabajo de la AC verificar los que retos han sido satisfechos. La A
 
 Si la firma sobre el `nonce` es v&aacute;lida, y los retos son v&aacute;lidos, entonces el agente identificado por su llave p&uacute;blica est&aacute; autorizado a realizar la gesti&oacute;n de certificados para `example.com`. Llamamos el par de llaves que el agente us&oacute; un "par de llaves autorizado" para `example.com`.
 
-
 ## Emici&oacute;n y Revocaci&oacute;n de Certificados
 
-Una vez el agente tenga un par de llaves autorizado, solicitando, renovando, y revocando certificados es simple---solo envia mensajes de manejamiento de certificados y firmalos con el par de llaves autorizado.
+Una vez el agente tenga un par de llaves autorizado, solicitando, renovando, y revocando certificados es simple\---solo envia mensajes de manejamiento de certificados y firmalos con el par de llaves autorizado.
 
 Para obtener un certificado para un dominio, el agente construye un PKCS#10 [Certificate Signing Request](https://tools.ietf.org/html/rfc2986) que le pregunta al AC Let's Encrypt que emita un certificado para `example.com` con una llave p&uacute;blica espeficificada. Como siempre, el CSR incluye una firma por la llave privada correspondiente a la llave p&uacute;blica en el CSR. El agent tambi&eacute;n firma el CSR entero con la llave autorizada para `example.com` de manera que el Let's Encrypt CA sepa que est&aacute; autorizado.
 
@@ -57,4 +56,3 @@ Revocaci&oacute;n funciona de una manera similar. El agent firma una solicitud d
 <img alt="Solicitando revocaci&oacute;n del certifiado para example.com"
      src="/images/howitworks_revocation.png"/>
 </div>
-
