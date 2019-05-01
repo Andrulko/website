@@ -1,65 +1,64 @@
-# See https://github.com/nicksnyder/go-i18n for format documentation and some tools.
+# See https://github.com/nicksnyder/go-i18n for format documentation and some tools.=
 
 [home_hero_title]
-other = "Let&rsquo;s Encrypt est une autorité de certification <span>gratuite</span>, <span>automatisée</span> et <span>ouverte</span>."
+other="Let&rsquo;s Encrypt is a <span>free</span>, <span>automated</span>, and <span>open</span> Certificate Authority."
 
 [home_hero_getting_started]
-other = "Commencer"
+other="Get Started"
 
 [home_hero_donate]
-other = "Faire un don"
+other="Donate"
 
 [home_hero_sponsor]
-other = "Sponsoriser"
+other="Sponsor"
 
 [home_major_sponsors]
-other = "Principaux Sponsors et Donateurs"
+other="Major Sponsors and Donors"
 
 [home_from_our_blog]
-other = "De notre blog"
+other="From our blog"
 
 [read_more]
-other = "Lire plus"
+other="Read more"
 
 [subscribe_rss]
-other = "S'abonner <a href=\"{{ .Permalink }}\">au flux RSS</a>"
+other="Subscribe <a href=\"{{ .Permalink }}\">via RSS</a>"
 
 [footer_support_us]
-other = "Soutenez un Web plus sûr et plus respectueux de la vie privée."
+other="Support a more secure and privacy-respecting Web."
 
 [footer_donate]
-other = "Faire un don"
+other="Donate"
 
 [footer_policies]
-other = """
-Voir notre <a href="/privacy/">politique de confidentialité</a>.<br>
-Voir notre <a href="/trademarks/">politique en matière de copyright</a>.
-"""
+other="\""
+View our <a href="/privacy/\">privacy policy</a>.<br>
+View our <a href="
+"""=
 
 [linux_foundation_trademark]
-other = "Linux Foundation est une marque déposée de The Linux Foundation. Linux est une marque déposée de Linus Torvalds."
+other="Linux Foundation is a registered trademark of The Linux Foundation. Linux is a registered trademark of Linus Torvalds."
 
 [header_skip_nav]
-other = "Passer les liens de navigation"
+other="Skip navigation links"
 
 [last_updated]
-other = "Dernière mise à jour :"
+other="Last updated:"
 
 [see_all_doc]
-other = "Voir toute la documentation"
+other="See all Documentation"
 
 [blog_feed]
-other = "Flux du blog de Let's Encrypt"
+other="Let's Encrypt Blog Feed"
 
 [platinum]
-other = "Platine"
+other="Platinum"
 
 [gold]
-other = "Or"
+other="Gold"
 
 [silver]
-other = "Argent"
-
+other="Silver"
 
 [languages]
-other = "Langues"
+other="Languages"
