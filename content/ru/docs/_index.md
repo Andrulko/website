@@ -1,7 +1,6 @@
 ---
 title: Документация
 top_graphic: 1
-menu: "main"
 menu:
   main:
     weight: 10
@@ -9,9 +8,9 @@ menu:
 
 # Обзор
 
-* [Приступая к работе](/ru/getting-started/)
-* [Как работает Let's Encrypt](/ru/how-it-works/)
-* [Часто задаваемые вопросы](/ru/docs/faq/)
+* [Приступая к работе](/getting-started/)
+* [Как работает Let's Encrypt](/how-it-works/)
+* [Часто задаваемые вопросы](/docs/faq/)
 * [Glossary](/docs/glossary/)
 
 # Информация для пользователей
@@ -24,8 +23,8 @@ menu:
 
 * [Staging Environment](/docs/staging-environment/)
 * [Certificate Compatibility](/docs/certificate-compatibility/)
-* [Цепочка доверия (Корневые и промежуточные сертификаты)](/ru/certificates/)
-* [Планируемый функционал](/ru/upcoming-features/)
+* [Цепочка доверия (Корневые и промежуточные сертификаты)](/certificates/)
+* [Планируемый функционал](/upcoming-features/)
 * [Revoking Certificates](/docs/revoking/)
 * [Certificate Authority Authorization](/docs/caa/)
 * [Certificates for localhost](/docs/certificates-for-localhost/)
