@@ -12,13 +12,13 @@ Note for translators:
  
 - Usage of the "def" macro (in other languages than English):
 {% def 
-	id="a unique id for anchor - the SAME than for english. will be prefixed by `def-`" 
-	name="The term to define (optional if english or abbr is provided)"
-	abbr="an accronym (optional)"
-	english="the english term (optional - if present the abbr is in english too)" %}}
-		the definition
+    id="a unique id for anchor - the SAME than for english. will be prefixed by `def-`" 
+    name="The term to define (optional if english or abbr is provided)"
+    abbr="an accronym (optional)"
+    english="the english term (optional - if present the abbr is in english too)" %}}
+        the definition
 {% /def %}
-	
+    
 - Check the javascript console for errors.
 
 - Automatic titles on definition's link cuts everything after the last point (to remove source links)
@@ -75,7 +75,7 @@ Note for translators:
 
 {{% def id="cross-signing" name="Cross Signing" %}} Ein ausgestelltes Zertifikat ist möglicherweise signiert durch mehrere [Root](#def-root). Zum Beispiel, [Let's Encrypt](#def-LE) [Zwischenzertifikate](#def-intermediate) sind quersigniert von [IdenTrust](#def-IdenTrust), weil beim Start von Let's Encrypt Root es nicht vertraut genug war im [Zertifikatspeicher](#def-store). Technisch wird es erreicht durch die Ausstellung zweier Zertifikate, benutzt vom selben [Subject](#def-subject) und dem selben [Schlüsselpaar](#def-key-pair), einer signiert vom privaten Schlüssel von Let's Encrypt Root und der andere signiert vom privaten Schlüssel von IdenTrust's Root: https://letsencrypt.org/de/certificates/. [Wikipedia](https://en.wikipedia.org/wiki/X.509#Certificate_chains_and_cross-certification) {{% /def %}}
 
-{{% def id="DANE" name="DNS-based Authentication of Named Entities" abbr="DANE" %}} Ein Mechanismus, benutzt DNS zur Identifizierung, wie die Authentizität des [Zertifikats](#def-leaf) zu verifizieren ist oder Verschlüsselungsschlüssel präsentiert.  [Wikipedia](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) {{% /def %}}
+{{% def id="DANE" name="DNS-based Authentication of Named Entities" abbr="DANE" %}} Ein Mechanismus, benutzt DNS zur Identifizierung, wie die Authentizität des [Zertifikats](#def-leaf) zu verifizieren ist oder Verschlüsselungsschlüssel präsentiert. [Wikipedia](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) {{% /def %}}
 
 {{% def id="DNSSEC" name="Domain Name System Security Extensions" abbr="DNSSEC" %}} Ein Mechanismus zum kryptographischen Authentifizieren einer DNS Antwort. DNSSEC benötigt eine Bereitstellung von TLDs, Domainname Eigentümer und rekursive Resolver, um effektiv zu arbeiten. Die Verbreitung ist derzeit sehr gering. [Wikipedia](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) {{% /def %}}
 
@@ -85,7 +85,7 @@ Note for translators:
 
 {{% def id="Ed25519" name="Ed25519" %}} A specific type of [EdDSA](#def-EdDSA), along with Ed448. {{% /def %}}
 
-{{% def id="EdDSA" name="Edwards-curve Digital Signature Algorithm" abbr="EdDSA" abbr_first="1" %}}  Ein modernes System öffentlicher Schlüssel basierend auf Kryptographie mit elliptischen Kurven, designt zur Lösung verschiedener [Implementierungsprobleme](https://ed25519.cr.yp.to/) mit Kryptographie mit elliptischen Kurven. Zertifizierungsstellen wie [Let's Encrypt](#def-LE) können momentan keine EdDSA Zertifikate zur Verfügung stellen. [Wikipedia](https://en.wikipedia.org/wiki/EdDSA) {{% /def %}}
+{{% def id="EdDSA" name="Edwards-curve Digital Signature Algorithm" abbr="EdDSA" abbr_first="1" %}} Ein modernes System öffentlicher Schlüssel basierend auf Kryptographie mit elliptischen Kurven, designt zur Lösung verschiedener [Implementierungsprobleme](https://ed25519.cr.yp.to/) mit Kryptographie mit elliptischen Kurven. Zertifizierungsstellen wie [Let's Encrypt](#def-LE) können momentan keine EdDSA Zertifikate zur Verfügung stellen. [Wikipedia](https://en.wikipedia.org/wiki/EdDSA) {{% /def %}}
 
 {{% def id="ECC" name="Elliptic Curve Cryptography" abbr="ECC" %}} Ein Typ öffentlicher Schlüssel basierend auf Kryptographie mit elliptischen Kurven. ECC benutzt kleinere Schlüssel im Vergleich zu nicht-EC Kryptographie bei vergleichsweise gleicher Sicherheit. [Cloudflare](https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/) - [Wikipedia](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography) {{% /def %}}
 
@@ -93,7 +93,7 @@ Note for translators:
 
 {{% def id="FQDN" name="Fully qualified domain name" abbr="FQDN" %}} Der komplette Domainname einer Webseite. Zum Beispiel `www.example.com` ist ein *FQDN*. {{% /def %}}
 
-{{% def id="IdenTrust" name="IdenTrust" %}} Eine [Zertifizierungsstelle](#def-CA). IdenTrust hat [Let's Encrypt](#def-LE) [Zwischenzertifikate](#def-intermediate) [quersigniert](#def-cross-signing): [https://letsencrypt.org/de/certificates/](https://letsencrypt.org/de/certificates/). [Wikipedia](https://en.wikipedia.org/wiki/IdenTrust) {{% /def %}}
+{{% def id="IdenTrust" name="IdenTrust" %}} Eine [Zertifizierungsstelle](#def-CA). IdenTrust hat [Let's Encrypt](#def-LE) [Zwischenzertifikate](#def-intermediate) [quersigniert](#def-cross-signing): <https://letsencrypt.org/de/certificates/>. [Wikipedia](https://en.wikipedia.org/wiki/IdenTrust) {{% /def %}}
 
 {{% def id="intermediate" name="Intermediate certificate" %}} Ein Zertifikat, signiert von [Root](#def-root) oder einem anderen Zwischenzertifikat, ist in der Lage andere Zertifikate zu signieren. Sie werden benutzt zum Signieren von Blatt-Zertifikaten, um den privaten Schlüssel des Root-Zertifikats offline zu halten. Zwischenzertifikate sind in [Zertifikatketten](#def-chain). [Wikipedia](https://en.wikipedia.org/wiki/Public_key_certificate#Types_of_certificate) {{% /def %}}
 
@@ -123,15 +123,15 @@ Note for translators:
 
 {{% def id="OV" name="Organization Validation" abbr="OV" %}} Zertifikate, für die die [CA](#def-CA) die juristische Person des [Subscriber](#def-subscriber) verifiziert hat. Diese enthalten Information über die Entität. [Let's Encrypt](#def-LE) bietet keine OV Zertifikate an. [Wikipedia](https://en.wikipedia.org/wiki/Public_key_certificate#Organization_validation) {{% /def %}}
 
-{{% def id="pem" name="PEM file (.pem)" %}}  Ein Format für kryptographische Information (original spezifiziert als Teil des Privacy Enhanced Mail Internet Standards für sichere E-Mail). Ein PEM Dokument kann Informationen wie einen privaten Schlüssel, einen öffentlichen Schlüssel oder ein digitales Zertifikat repräsentieren. Diese Dateien beginnen mit "-\-\-\--BEGIN " und dann den Datentyp. [Wikipedia](https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail) {{% /def %}}
+{{% def id="pem" name="PEM file (.pem)" %}} Ein Format für kryptographische Information (original spezifiziert als Teil des Privacy Enhanced Mail Internet Standards für sichere E-Mail). Ein PEM Dokument kann Informationen wie einen privaten Schlüssel, einen öffentlichen Schlüssel oder ein digitales Zertifikat repräsentieren. Diese Dateien beginnen mit "-\-\-\--BEGIN " und dann den Datentyp. [Wikipedia](https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail) {{% /def %}}
 
 {{% def id="pfx" name="Personal Information Exchange Files (.pfx)" %}} Eine Datei die möglicherweise ein [Blatt-Zertifikat](#def-leaf) enthält, es ist eine [Kette](#def-chain) hoch bis zum Root und den privaten Schlüssel des Blatt-Zertifikats. Schauen Sie auch https://en.wikipedia.org/wiki/PKCS_12. [Microsoft Hardware Dev Center](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/personal-information-exchange---pfx--files) {{% /def %}}
 
-{{% def id="precertificate" name="Precertificate" %}} Vorzertifikate sind Teil der [Certificate Transparency](#def-CT). Ein Vorzertifikat ist eine Kopie des [Zertifikat](#def-leaf), dass eine CA beabsichtigt auszustellen mit einer  [kritischen](#def-critical) Erweiterung ausgestattet, um zu verhindern, dass das Vorzertifikat von Software in der Welt akzeptiert wird. Eine CA sendet ein Vorzertifikat zum [CT logs](#def-CT-log) in Austausch für [SCTs](#def-SCT). Da ein Vorzertifikat nicht identisch ist mit seinem korrespondierenden Zertifikat, loggt Certificate Transparency am Ende beide. [RFC 6962 Section 3.1]( https://tools.ietf.org/html/rfc6962#section-3.1) {{% /def %}}
+{{% def id="precertificate" name="Precertificate" %}} Vorzertifikate sind Teil der [Certificate Transparency](#def-CT). Ein Vorzertifikat ist eine Kopie des [Zertifikat](#def-leaf), dass eine CA beabsichtigt auszustellen mit einer [kritischen](#def-critical) Erweiterung ausgestattet, um zu verhindern, dass das Vorzertifikat von Software in der Welt akzeptiert wird. Eine CA sendet ein Vorzertifikat zum [CT logs](#def-CT-log) in Austausch für [SCTs](#def-SCT). Da ein Vorzertifikat nicht identisch ist mit seinem korrespondierenden Zertifikat, loggt Certificate Transparency am Ende beide. [RFC 6962 Section 3.1](https://tools.ietf.org/html/rfc6962#section-3.1) {{% /def %}}
 
 {{% def id="HPKP" name="HTTP Public Key Pinning" abbr="HPKP" %}} Ein Sicherheitsmechanismus, der Browser fragt, ob die [Zertifikatkette](#def-chain) eines Webservers für zukünfigte Anfragen benutzt werden soll. Chrome stellte dieses Mechanismus zum Schutz gegen CA Komprimitierungen vor, aber Ausfälle von Seiten verleiteten Chrome dazu, diesen zu [missbilligen und zu löschen](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/he9tr7p3rZ8). [Wikipedia](https://en.wikipedia.org/wiki/HTTP_Public_Key_Pinning) {{% /def %}}
 
-{{% def id="PSL" name="Public Suffix List" abbr="PSL" %}} Eine Liste von *Public Suffixes* verwaltet von Mozilla, zeigt an, welche Internet-Domains verfügbar sind für viele separate Entitäten zum Registrieren von Sub-Domains. Zum Beispiel, die Liste zeigt an, dass beide `com` und `co.uk` sind Public Suffixes, wobei  `co.uk` keine TLD ist. Web Browser benutzen die Liste für einige andere Dinge, um zu verhindern, dass Webseiten, die wahrscheinlich von verschiedenen Entitäten betrieben werden, Web-Cookies miteinander teilen. [Let's Encrypt](#def-LE) benutzt die Liste auch zum Berechnen der Rate Limits: https://letsencrypt.org/de/docs/rate-limits/. https://publicsuffix.org/ {{% /def %}}
+{{% def id="PSL" name="Public Suffix List" abbr="PSL" %}} Eine Liste von *Public Suffixes* verwaltet von Mozilla, zeigt an, welche Internet-Domains verfügbar sind für viele separate Entitäten zum Registrieren von Sub-Domains. Zum Beispiel, die Liste zeigt an, dass beide `com` und `co.uk` sind Public Suffixes, wobei `co.uk` keine TLD ist. Web Browser benutzen die Liste für einige andere Dinge, um zu verhindern, dass Webseiten, die wahrscheinlich von verschiedenen Entitäten betrieben werden, Web-Cookies miteinander teilen. [Let's Encrypt](#def-LE) benutzt die Liste auch zum Berechnen der Rate Limits: https://letsencrypt.org/de/docs/rate-limits/. https://publicsuffix.org/ {{% /def %}}
 
 {{% def id="relying-party" name="Relying Party" %}} Die Person, die sich auf Information in einem Zertifikat verlässt. Zum Beispiel, jemand, der eine HTTPS Webseite besucht, ist ein Relying Party. {{% /def %}}
 
@@ -175,5 +175,5 @@ Note for translators:
 
 {{% def id="X509" abbr="X.509" %}} Die Standarddefinition des Formats von Öffentliche-Schlüssel-Zertifikate. [Wikipedia](https://en.wikipedia.org/wiki/X.509) {{% /def %}}
 
-<link rel="stylesheet" href="/css/glossary.css">
+<link rel="stylesheet" href="/css/glossary.css" />
 <script src="/js/glossary.js" async></script>
