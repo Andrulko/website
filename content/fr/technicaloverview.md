@@ -4,7 +4,7 @@ slug: how-it-works
 top_graphic: 3
 ---
 
-L'objectif de l'Autorité de Certification (AC ou CA pour Certificate Authority en anglais) Let's&nbsp;Encrypt et du [protocole ACME](https://ietf-wg-acme.github.io/acme/) est de permettre la mise en place d'un serveur HTTPS et l'obtention automatique d'un certificat reconnu comme  de confiance par les navigateurs, sans intervention humaine. Ceci est accompli en exécutant un agent de gestion de certificats sur le serveur Web.
+L'objectif de l'Autorité de Certification (AC ou CA pour Certificate Authority en anglais) Let's&nbsp;Encrypt et du [protocole ACME](https://ietf-wg-acme.github.io/acme/) est de permettre la mise en place d'un serveur HTTPS et l'obtention automatique d'un certificat reconnu comme de confiance par les navigateurs, sans intervention humaine. Ceci est accompli en exécutant un agent de gestion de certificats sur le serveur Web.
 
 Pour comprendre le fonctionnement, étudions le processus de configuration de `https://example.com/` avec un agent de gestion de certificats prenant en charge la fonction de chiffrement Let's&nbsp;Encrypt.
 
@@ -56,4 +56,3 @@ La révocation fonctionne de la même manière. L'agent signe une demande de ré
 <img alt="Demander la révocation d'un certificat de example.com"
      src="/images/howitworks_revocation.png"/>
 </div>
-
