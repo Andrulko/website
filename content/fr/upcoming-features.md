@@ -11,9 +11,9 @@ top_graphic: 1
 Nous prévoyons de gérer un [certificate transparency log](http://www.certificate-transparency.org/how-ct-works).
 
 ## Validation multi - points de vue
- 
+
 * Prévu: T2 2019
- 
+
 Actuellement, Let's Encrypt valide d'un point de vue unique du réseau. Nous prévoyons de commencer à valider à partir de plusieurs points de vue du réseau.
 
 ## ECDSA Racine et Intermédiaires

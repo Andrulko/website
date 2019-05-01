@@ -38,7 +38,7 @@ Hemos especificado e implementado un [reemplazo](https://datatracker.ietf.org/do
 
 * Habilitado: 13 de marzo del 2018
 
-## v2 ACME API 
+## v2 ACME API
 
 * Habilitado: 13 de marzo del 2018
 
@@ -58,7 +58,7 @@ Inicialmente, solo partes de la infraestructura del API de Let's Encrypt se podi
 
 * Habilitado: 25 de marzo del 2016
 
-Se resolvi&oacute; un problema con nuestra cadena de certificados que preven&iacute;a certificados Let's Encrypt  de ser aceptados por navegadores en Windows XP.
+Se resolvi&oacute; un problema con nuestra cadena de certificados que preven&iacute;a certificados Let's Encrypt de ser aceptados por navegadores en Windows XP.
 
 ## Soporte para firmar ECDSA
 

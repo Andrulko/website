@@ -1,7 +1,6 @@
 ---
 title: Documentation
 top_graphic: 1
-menu: "main"
 menu:
   main:
     weight: 10
@@ -9,8 +8,8 @@ menu:
 
 # Vue d'ensemble
 
-* [Commencer](/fr/getting-started/)
-* [Comment ça marche](/fr/how-it-works/)
+* [Commencer](/getting-started/)
+* [Comment ça marche](/how-it-works/)
 * [Frequently Asked Questions (FAQ)](/docs/faq/)
 * [Glossaire](/docs/glossary/)
 
@@ -24,11 +23,13 @@ menu:
 
 * [Staging Environment](/docs/staging-environment/)
 * [Certificate Compatibility](/docs/certificate-compatibility/)
-* [Chaîne de confiance (Certificats Racines et Intermédiaires)](/fr/certificates/)
-* [Fonctionnalités à venir](/fr/upcoming-features/)
+* [Chaîne de confiance (Certificats Racines et Intermédiaires)](/certificates/)
+* [Fonctionnalités à venir](/upcoming-features/)
 * [Revoking Certificates](/docs/revoking/)
 * [Certificate Authority Authorization](/docs/caa/)
 * [Certificates for localhost](/docs/certificates-for-localhost/)
+* [Best Practice - Keep Port 80 Open](/docs/allow-port-80/)
+* [Challenge Types](/docs/challenge-types/)
 
 # Client Developer Information
 

@@ -30,4 +30,4 @@ Sie können diese Webseite und die Dokumentation [hier](https://github.com/letse
 
 ## Protokoil
 
-Die Let's Encrypt CA kommuniziert mit der Zertifikatsverwaltungssoftware, welche auf dem Webserver läuft.  Das Protokoll dafür wird ACME genannt, für "Automated Certificate Management Environment". Der Entwurf der ACME Spezifikation ist [auf Github verfügbar](https://github.com/ietf-wg-acme/acme). Er ist auf dem Weg durch den IETF zur Finalisierung als offener Standard. Sie können der Entwicklerdiskussion zum ACME Protokoll auf [dieser IETF Mailingliste](https://www.ietf.org/mailman/listinfo/acme) beitreten.
+Die Let's Encrypt CA kommuniziert mit der Zertifikatsverwaltungssoftware, welche auf dem Webserver läuft. Das Protokoll dafür wird ACME genannt, für "Automated Certificate Management Environment". Der Entwurf der ACME Spezifikation ist [auf Github verfügbar](https://github.com/ietf-wg-acme/acme). Er ist auf dem Weg durch den IETF zur Finalisierung als offener Standard. Sie können der Entwicklerdiskussion zum ACME Protokoll auf [dieser IETF Mailingliste](https://www.ietf.org/mailman/listinfo/acme) beitreten.
