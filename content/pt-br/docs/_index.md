@@ -1,7 +1,6 @@
 ---
 title: Documentação
 top_graphic: 1
-menu: "main"
 menu:
   main:
     weight: 10
@@ -9,8 +8,8 @@ menu:
 
 # Visão Geral
 
-* [Começando a usar](/pt-br/getting-started/)
-* [Como a Let's Encrypt Funciona](/pt-br/how-it-works/)
+* [Começando a usar](/getting-started/)
+* [Como a Let's Encrypt Funciona](/how-it-works/)
 * [Frequently Asked Questions (FAQ)](/docs/faq/)
 * [Glossary](/docs/glossary/)
 
