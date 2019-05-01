@@ -15,16 +15,11 @@ Nous donnons aux gens les certificats numériques dont ils ont besoin pour activ
 
 Les principes clés de Let's Encrypt sont les suivants :
 
-* <strong> Gratuit : </strong> Toute personne possédant un nom de domaine peut utiliser Let's Encrypt pour obtenir un certificat reconnu, à coût nul.
-
-* <strong>Automatique :</strong> Un logiciel s'exécutant sur un serveur Web peut interagir avec Let's Encrypt pour obtenir sans difficulté un certificat, le configurer de manière sécurisée pour l'utilisation et prendre automatiquement en charge le renouvellement.
-
-* <strong>Sécurisé :</strong> Let's Encrypt servira de plate-forme pour faire progresser les meilleures pratiques de sécurité TLS, tant du côté de l'autorité de certification que pour aider les responsables de site Web à sécuriser correctement leurs serveurs.
-
-* <strong>Transparent :</strong> Tous les certificats délivrés ou révoqués seront enregistrés publiquement et disponibles pour inspection par quiconque.
-
-* <strong>Ouvert :</strong> Le protocole d'émission et de renouvellement automatique sera publié en tant que norme ouverte que d'autres peuvent adopter.
-
-* <strong>Coopératif :</strong> Tout comme les protocoles Internet sous-jacents eux-mêmes, Let's Encrypt est un effort conjoint au profit de la communauté, au-delà du contrôle d'un organisme en particulier.
+* **Free:** Anyone who owns a domain name can use Let's Encrypt to obtain a trusted certificate at zero cost.
+* **Automatic:** Software running on a web server can interact with Let's Encrypt to painlessly obtain a certificate, securely configure it for use, and automatically take care of renewal.
+* **Secure:** Let's Encrypt will serve as a platform for advancing TLS security best practices, both on the CA side and by helping site operators properly secure their servers.
+* **Transparent:** All certificates issued or revoked will be publicly recorded and available for anyone to inspect.
+* **Open:** The automatic issuance and renewal protocol will be published as an open standard that others can adopt.
+* **Cooperative:** Much like the underlying Internet protocols themselves, Let's Encrypt is a joint effort to benefit the community, beyond the control of any one organization.
 
 Nous avons une page avec des informations plus détaillées sur [comment fonctionne l'AC Let's Encrypt](/fr/how-it-works/).
