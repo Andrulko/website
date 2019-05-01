@@ -15,12 +15,11 @@ Le damos a las personas certificados digitales que necesitan en orden para habil
 
 Los principios claves detr&aacute;s de Let's Encrypt son:
 
-* <strong>Gratiuto:</strong> Cualquier persona que tiene un domain name puede usar Let's Encrypt para obtener un certificado confiado a ning&uacute;n costo.
-* <strong>Autom&aacute;tico:</strong> Software corriendo en un servidor de web puede interacturar con Let's Encrypt para obtener un certificado f&aacute;cilmente, configularlo seguramente para uso, y autom&aacute;ticamente hacerce acargo de la renovaci&oacute;n.
-* <strong>Seguro:</strong> Let's Encrypt servir&aacute; como una plataforma para avanzar las mejores pr&aacute;cticas de seguridad TLS, tanto en el lado del AC como ayudando a operadores de sitios web asegurar sus servidores apropiadamente.
-* <strong>Transparente:</strong> Todos los certificados emitidos o revocados seran registrados publicamente y disponibles para cualquiere inspeccionar.
-* <strong>Abierto:</strong> La emisi&oacute;n autom&aacute;tica y el protocolo de renovaci&oacute;n ser&aacute;n publicados como un est&aacute;ndar abierto que otros pueden adoptar.
-Al igual que los mismos protocolos de Internet subyacentes, Let's Encrypt es un esfuerzo conjunto para beneficiar la comunidad, 
-* <strong>Cooperativo:</strong> Much like the underlying Internet protocols themselves, Let's Encrypt is a joint effort to benefit the community, m&aacute;s all&aacute; del control de cualquier organizaci&oacute;n.
+* **Gratiuto:** Cualquier persona que tiene un domain name puede usar Let's Encrypt para obtener un certificado confiado a ning&uacute;n costo.
+* **Autom&aacute;tico:** Software corriendo en un servidor de web puede interacturar con Let's Encrypt para obtener un certificado f&aacute;cilmente, configularlo seguramente para uso, y autom&aacute;ticamente hacerce acargo de la renovaci&oacute;n.
+* **Seguro:** Let's Encrypt servir&aacute; como una plataforma para avanzar las mejores pr&aacute;cticas de seguridad TLS, tanto en el lado del AC como ayudando a operadores de sitios web asegurar sus servidores apropiadamente.
+* **Transparente:** Todos los certificados emitidos o revocados seran registrados publicamente y disponibles para cualquiere inspeccionar.
+* **Abierto:** La emisi&oacute;n autom&aacute;tica y el protocolo de renovaci&oacute;n ser&aacute;n publicados como un est&aacute;ndar abierto que otros pueden adoptar. Al igual que los mismos protocolos de Internet subyacentes, Let's Encrypt es un esfuerzo conjunto para beneficiar la comunidad,
+* **Cooperativo:** Much like the underlying Internet protocols themselves, Let's Encrypt is a joint effort to benefit the community, m&aacute;s all&aacute; del control de cualquier organizaci&oacute;n.
 
 Tenemos una p&aacute;gina con informaci&oacute;n m&aacute;s detallada sobre [c&oacute;mo Let's Encrypt AC funciona](/how-it-works/).
