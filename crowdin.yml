@@ -7,8 +7,6 @@ files:
         pt-BR: pt-br
   - source: /i18n/en.toml
     translation: /i18n/%two_letters_code%.toml
-    dest: /i18n/en.ini
-    type: ini
     languages_mapping:
       two_letters_code:
         pt-BR: pt-br
